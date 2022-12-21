@@ -67,6 +67,8 @@ function App() {
                     <img
                       src={membro.urlFoto}
                       alt={`foto do candidato ${membro.nome}`}
+                      width="150px"
+                      height="180px"
                     />
                     <p>{membro.email}</p>
                   </div>
