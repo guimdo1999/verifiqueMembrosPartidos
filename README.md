@@ -1,3 +1,16 @@
+# Verifique os membros de um partido!
+
+É possível selecionar um partido político e ver todos os seus membros na atual legislatura!
+Utilizando a API da Câmara: https://dadosabertos.camara.leg.br/swagger/api.html
+
+Todo o código fonte está em src/App.tsx
+
+## Imagem exemplo de como se parece:
+
+![image](https://user-images.githubusercontent.com/57801041/208918357-a571109d-8997-4500-9c8a-e67a9737c81c.png)
+
+
+-----------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
