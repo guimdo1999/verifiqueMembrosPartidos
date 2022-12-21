@@ -49,7 +49,7 @@ function App() {
           onChange={(id) => getSelectedPart(Number(id.currentTarget.value))}
         >
           {partidos.map((partido: any) => {
-            return <option value={partido.id}>{partido.sigla}</option>;
+            return <option key={partido.id} value={partido.id}>{partido.sigla}</option>;
           })}
         </select>
       )}
@@ -62,7 +62,7 @@ function App() {
             <>
               {membros.map((membro: any) => {
                 return (
-                  <div>
+                  <div key={membro.id}>
                     <h1>{membro.nome}</h1>
                     <img
                       src={membro.urlFoto}
